@@ -4,26 +4,28 @@ body {
   margin: 0;
 }
 h1 {
-  text-align: center
+  text-align: center;
 }
 nav{
-  text-align: center
+  text-align: center;
 }
-a{
-   background-color: gray; padding-left: 10px; padding-right: 10px
+nav a{
+   background-color: gray; padding-left: 10px; padding-right: 10px; 
 }
-#featured-property{
+#featured-property p ,figure {
 display: block;
-margin-left: 10%;
-margin-right: 3%;
+margin-left: auto;
+margin-right: auto;
+width: 900;
+text-align: center;
 }
 
 
 figcaption{
   font-size: small; text-align: center;
 }
-#featured-property{
-  text-align: center; width: 800px; font-size: larger;
+#featured-property > p {
+ width: 800px; font-size: larger;
 }
 div{
   background:red; float: left;width: 25%; text-align: center; 
